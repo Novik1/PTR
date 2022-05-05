@@ -57,12 +57,6 @@ I have implemented "AutoScaler.scala" class, in order to find how much messages 
 I have used a stack which contains time when the message was received, after this I compare each message time with current time and scale the difference of them in order to calculate messages, difference of which, is less then 1 second.
 After this the number of messages is sent to "WorkerSupervisor.scala" class which depends on this count creates pool of workers with specific number. 
 
-
--------------------------
-
-#### Output example video
-![](https://github.com/Tanyatsy/Real-time-programming/blob/master/Lab1/src/main/resources/RTP_Lab1.gif)
-
 -------------------------
 
 ## How to use
